@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ds": "npm run storybook-html-demo",
-    "run:ds": "npm explore storybook-html-demo -- npm run storybook"
+    "ds": "npm explore storybook-html-demo -- npm run storybook",
+    "build:css": "sass --style=compressed ./src/index.scss ./src/index.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "sass": "^1.49.4",
     "storybook-html-demo": "^0.2.0"
   }
 }

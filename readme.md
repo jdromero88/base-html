@@ -1,5 +1,9 @@
 # Base HTML
 
+Clone this repo:
+```bash
+git clone git@github.com:jdromero88/base-html.git && cd base-html
+```
 
 ## Install DS
 ```bash
@@ -7,10 +11,10 @@ npm i storybook-html-demo -D
 ```
 
 ```bash
-cd node_modules/storybook-html-demo && npm i
+cd node_modules/storybook-html-demo && npm i && cd ../../
 ```
 
-run this command to run storybook `npm explore storybook-html-demo -- npm run storybook`
+run this command to run storybook `npm run ds`
 
 ## Add a Storybook Design System
 To add a Design System made with storyboook you can do it by updating the `./storybook/main.js`
@@ -41,3 +45,8 @@ To add a Design System made with storyboook you can do it by updating the `./sto
 ```bash
 sass --style=compressed ./src/index.scss ./src/index.css
 ```
+
+if you dont have sass can install by running: 
+`npm install --save-dev sass`
+or
+`brew install sass/sass/sass`
