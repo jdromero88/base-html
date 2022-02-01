@@ -1,13 +1,10 @@
-@import "../node_modules/storybook-html-demo/src/stories/atoms/Button.css";
-@import "../node_modules/storybook-html-demo/src/stories/molecules/ButtonGroup.css";
 
 .btn-group {
   margin: .2rem 0;
-  &.btn {
-    margin: 0 .2rem !important;
+  button + button {
+    margin-left: .2rem !important;
   }
 }
 
-// @import "./node_modules/bulma/bulma.sass";
-
-
+@import "../node_modules/storybook-html-demo/src/stories/atoms/Button.scss";
+@import "../node_modules/storybook-html-demo/src/stories/molecules/ButtonGroup.scss";

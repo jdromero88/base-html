@@ -37,7 +37,7 @@ To add a Design System made with storyboook you can do it by updating the `./sto
 @import "../node_modules/storybook-html-demo/src/stories/atoms/Button.css";
 @import "../node_modules/storybook-html-demo/src/stories/molecules/ButtonGroup.css";
 ```
-# Run CSS
+# Compile the SCSS
 ```bash
 sass --style=compressed ./src/index.scss ./src/index.css
 ```
